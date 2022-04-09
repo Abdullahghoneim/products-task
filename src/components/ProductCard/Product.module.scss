@@ -3,6 +3,25 @@
 .Product {
     // card style 
     box-shadow: 0px 1px 3px #77777729;
+    position: relative;
+    .MenuWrpaer {
+        position: absolute;
+        top: .5rem;
+        right: 1rem;
+        background: white;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        .Setting {
+            width: 1rem;
+        }
+    }
     .Image {
         height: 8rem;
         width: 8rem;
