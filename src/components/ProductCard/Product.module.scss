@@ -1,0 +1,49 @@
+@import '../../styles/_colors.scss'; 
+
+.Product {
+    // card style 
+    box-shadow: 0px 1px 3px #77777729;
+    .Image {
+        height: 8rem;
+        width: 8rem;
+        background-position: center !important;
+        background-size: cover !important;    
+        border-radius: 2rem 0rem ;
+    }
+    .CardContant {
+        padding: .3rem;
+        .Title {
+            font-size: .7rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 2rem;
+        }
+        .ProceWraper {
+            display: flex;
+            gap: .5rem;
+            .Price {
+                background: transparent linear-gradient(242deg, #591FF8 0%, #2D1996 100%) 0% 0% no-repeat padding-box;
+            border-radius: .3rem;
+            width: 2.8rem;
+            height: 1.7rem;
+            color: white;
+            padding: 1px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p {
+                font-size: .7rem;
+                font-weight: bold;
+            }
+        }
+        small {
+            margin-top: auto;
+            color: $purple; 
+            font-size: .7rem;
+        }
+        }
+    }
+}
