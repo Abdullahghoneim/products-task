@@ -1,12 +1,10 @@
 import React from 'react'
+import DropDown from '../DropDown';
 import styles from './Product.module.scss';
-import Edit from '../../assets/edit.png'
 function ProductCard({ image, title, price }) {
     return (
         <div className={styles.Product}>
-            <button className={styles.MenuWrpaer}>
-                <img className={styles.Setting} src={Edit} alt="" />
-            </button>
+            <DropDown />
             <div className={styles.Image} style={{
                 background: `url(${image})`,
             }} />
